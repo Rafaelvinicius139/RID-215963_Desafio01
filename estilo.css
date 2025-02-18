@@ -1,0 +1,80 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0; 
+    font-family:inter;
+}
+/*logo*/
+#logo{
+    background-color:#303030 ;
+    color:#F9F9F9;
+    padding-top:207px;
+    padding-left:60px;
+    padding-bottom:170px;
+}
+#titulologo{
+    font-size:60px;
+}
+/* fim da parte do logo*/
+/* 
+informaçoes
+*/
+#informaçoes{
+    background-color:#F9F9F9;
+    display:grid;
+    grid-auto-flow:column;  
+}
+.menu{
+    padding:50px;
+    padding-left:120px;  
+}
+/* 
+ fim menu informaçoes 
+*/
+#quem_somos{
+    display:grid;
+    grid-auto-flow:column;
+}
+.texto{
+    padding:70px;
+
+}
+
+#textoposição{
+    padding-top:280px;
+}
+
+#contatos{
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    padding:120px;
+}
+input{
+    font-size: 30px;
+    margin: 33px;
+    padding:20px;
+}
+.entradas{
+    padding-left:10px;
+    border-radius:10px;
+    font-size:30px;
+    width: 450px;
+    border:solid white 1px;
+}
+button{
+    padding:20px;
+    color: white;
+    border-radius:10px;
+    background-color:#C07212;
+    border: solid,#C07212 1px;
+    width:300px;
+    font-size:20px;
+}
+
+
+
+
+
+
